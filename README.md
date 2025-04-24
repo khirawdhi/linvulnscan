@@ -87,26 +87,3 @@ GitHub: [@khirawdhi](https://github.com/khirawdhi)
 LinkedIn: [linkedin.com/in/khirawadhi](https://www.linkedin.com/in/khirawadhi//)
 
 ---
-
-## 📄 License
-
-This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for more details.
-```
-
-### Explanation of Changes:
-1. Fixed some broken code blocks.
-2. Properly formatted the sections such as **Installation**, **Usage**, **Sample Output**, etc.
-3. Updated the author section with your name and correct links.
-
----
-
-### Next Steps:
-1. Create the `README.md` file in your project directory if you haven't already.
-2. Paste the above content into the file and save.
-3. Commit the changes:
-
-
-git add README.md
-git commit -m "Updated README.md with features, usage, and ethical use"
-git push
-```
