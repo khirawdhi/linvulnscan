@@ -1,0 +1,17 @@
+# Ignore build files
+build/
+
+# Ignore egg-info files
+*.egg-info/
+
+# Ignore log files
+vuln_scan_log.txt
+
+# Ignore virtual environment
+venv/
+
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+
