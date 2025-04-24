@@ -1,30 +1,31 @@
-# LinVulnScan
+# 🔍 LinVulnScan — Linux Privilege Escalation Scanner
 
-A Python package to scan for Linux vulnerabilities and test privilege escalation vectors. It is based on the principles of LinPEAS but is customizable to your needs.
+[![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Issues](https://img.shields.io/github/issues/khirawdhi/linvulnscan)](https://github.com/khirawdhi/linvulnscan/issues)
 
-## Features
+`LinVulnScan` is a Python-based lightweight Linux privilege escalation discovery tool inspired by [linPEAS](https://github.com/carlospolop/PEASS-ng/tree/master/linPEAS).  
+It identifies common misconfigurations, insecure binaries, SUID issues, and then **automatically tests** privilege escalation vectors using a **non-root user** created during runtime.
 
-- Checks for Sudo misconfigurations
-- Scans for SUID files
-- Detects writable cron jobs and paths
-- Creates a test user and tests escalation vectors
-- Logs all actions to `vuln_scan_log.txt`
+---
 
-## Installation
+## 🚀 Features
 
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/yourusername/linvulnscan.git
-    cd linvulnscan
-    ```
+- 🔐 Checks for:
+  - SUID/SGID binaries
+  - World-writable files and paths
+  - sudo misconfigurations
+  - Cron jobs and scripts
+  - Kernel exploits (basic check)
+- 🧪 Automatically creates a temp user to **test vulnerabilities**
+- 🔁 Attempts to exploit verified escalation vectors (ethically)
+- 📝 Generates a scan report
 
-2. Install the package:
-    ```bash
-    sudo pip install .
-    ```
+---
 
-## Usage
+## ⚙️ Installation
 
-Run the scanner:
+Install directly from GitHub:
+
 ```bash
-sudo python3 -m linvulnscan
+pip install git+https://github.com/khirawdhi/linvulnscan.git
