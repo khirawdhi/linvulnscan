@@ -1,0 +1,21 @@
+
+[+] Sudo Rights
+
+
+[+] SUID Binaries
+
+
+[+] Writable Cron Jobs
+
+
+[+] Writable PATH Dirs
+/usr/local/bin
+
+[+] Exploit: PATH Hijack
+
+
+[+] Writable Directories as Normal User
+
+
+[+] Cleanup
+Removed user vultestuser
