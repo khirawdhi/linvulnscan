@@ -5,7 +5,7 @@ build/
 *.egg-info/
 
 # Ignore log files
-vuln_scan_log.txt
+*.log.txt
 
 # Ignore virtual environment
 venv/
@@ -14,4 +14,3 @@ venv/
 __pycache__/
 *.pyc
 *.pyo
-
