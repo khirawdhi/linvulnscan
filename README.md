@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ```markdown
 # 🔍 LinVulnScan — Linux Privilege Escalation Scanner
 
