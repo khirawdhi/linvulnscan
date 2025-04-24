@@ -32,7 +32,6 @@ pip install git+https://github.com/khirawdhi/linvulnscan.git
 
 Or clone the repository manually and install locally:
 
-```bash
 git clone https://github.com/khirawdhi/linvulnscan.git
 cd linvulnscan
 sudo pip install .
