@@ -1,3 +1,4 @@
+```markdown
 # 🔍 LinVulnScan — Linux Privilege Escalation Scanner
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
@@ -27,5 +28,85 @@ It identifies common misconfigurations, insecure binaries, SUID issues, and then
 
 Install directly from GitHub:
 
-```bash
 pip install git+https://github.com/khirawdhi/linvulnscan.git
+```
+
+Or clone the repository manually and install locally:
+
+```bash
+git clone https://github.com/khirawdhi/linvulnscan.git
+cd linvulnscan
+sudo pip install .
+```
+
+---
+
+## 🧪 Usage
+
+Once installed, run the scanner using the following commands:
+
+```bash
+sudo run_scan
+```
+
+or
+
+```bash
+sudo python3 -m linvulnscan
+```
+
+> ⚠️ **Note:** Root access is required to run escalation checks.
+
+---
+
+## 📁 Sample Output
+
+Here is a sample of what the output will look like when the scanner runs:
+
+```bash
+[+] SUID Binary Found: /usr/bin/sudo
+[+] Exploitable with sudo misconfig
+[+] Attempting privilege escalation as user: tempuser
+[+] Escalation successful. User tempuser gained root access.
+```
+
+---
+
+## 🛡️ Ethical Use
+
+`LinVulnScan` is intended for **authorized security assessments**, **Capture the Flag (CTF) competitions**, and **lab testing** only.  
+**Please do not use this tool on systems you do not own or have explicit permission to test.** Unauthorized use is illegal and unethical.
+
+---
+
+## 👩‍💻 Author
+
+**Khirawadhi**  
+Website: [khirawdhi.com](https://khirawdhi.com)  
+GitHub: [@khirawdhi](https://github.com/khirawdhi)  
+LinkedIn: [linkedin.com/in/khirawadhi](https://www.linkedin.com/in/khirawadhi//)
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for more details.
+```
+
+### Explanation of Changes:
+1. Fixed some broken code blocks.
+2. Properly formatted the sections such as **Installation**, **Usage**, **Sample Output**, etc.
+3. Updated the author section with your name and correct links.
+
+---
+
+### Next Steps:
+1. Create the `README.md` file in your project directory if you haven't already.
+2. Paste the above content into the file and save.
+3. Commit the changes:
+
+
+git add README.md
+git commit -m "Updated README.md with features, usage, and ethical use"
+git push
+```
