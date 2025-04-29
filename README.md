@@ -82,6 +82,6 @@ Here is a sample of what the output will look like when the scanner runs:
 **Khirawadhi**  
 Website: [khirawdhi.com](https://khirawdhi.com)  
 GitHub: [@khirawdhi](https://github.com/khirawdhi)  
-LinkedIn: [linkedin.com/in/khirawadhi](https://www.linkedin.com/in/khirawadhi//)
+LinkedIn: [linkedin.com/in/khirawadhi](https://www.linkedin.com/in/khirawadhi/)
 
 ---
