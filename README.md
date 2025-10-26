@@ -80,8 +80,9 @@ Here is a sample of what the output will look like when the scanner runs:
 ## 👩‍💻 Author
 
 **Khirawadhi**  
-Website: [khirawdhi.com](https://khirawdhi.com)  
+Website: [raykhira.com](https://raykhira.com/)  
 GitHub: [@khirawdhi](https://github.com/khirawdhi)  
 LinkedIn: [linkedin.com/in/khirawadhi](https://www.linkedin.com/in/khirawadhi/)
 
 ---
+
