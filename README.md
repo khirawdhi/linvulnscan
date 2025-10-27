@@ -79,10 +79,11 @@ Here is a sample of what the output will look like when the scanner runs:
 
 ## 👩‍💻 Author
 
-**Khirawadhi**  
+**Khirawdhi Ray**  
 Website: [raykhira.com](https://raykhira.com/)  
 GitHub: [@khirawdhi](https://github.com/khirawdhi)  
-LinkedIn: [linkedin.com/in/khirawadhi](https://www.linkedin.com/in/khirawadhi/)
+LinkedIn: [linkedin.com/in/khirawdhi](https://www.linkedin.com/in/khirawdhi/)
 
 ---
+
 
