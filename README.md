@@ -1,4 +1,4 @@
-🔍 LinVulnScan — Linux Privilege Escalation Scanner
+LinVulnScan — Linux Privilege Escalation Scanner
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
@@ -9,21 +9,21 @@ It identifies common misconfigurations, insecure binaries, SUID issues, and then
 
 ---
 
-## 🚀 Features
+## Features
 
-- 🔐 Checks for:
+- Checks for:
   - SUID/SGID binaries
   - World-writable files and paths
   - sudo misconfigurations
   - Cron jobs and scripts
   - Kernel exploits (basic check)
-- 🧪 Automatically creates a temp user to **test vulnerabilities**
-- 🔁 Attempts to exploit verified escalation vectors (ethically)
-- 📝 Generates a scan report
+- Automatically creates a temp user to **test vulnerabilities**
+- Attempts to exploit verified escalation vectors (ethically)
+- Generates a scan report
 
 ---
 
-## ⚙️ Installation
+## Installation
 
 Install directly from GitHub:
 
@@ -39,7 +39,7 @@ sudo pip install .
 
 ---
 
-## 🧪 Usage
+## Usage
 
 Once installed, run the scanner using the following commands:
 
@@ -53,11 +53,11 @@ or
 sudo python3 -m linvulnscan
 ```
 
-> ⚠️ **Note:** Root access is required to run escalation checks.
+> **Note:** Root access is required to run escalation checks.
 
 ---
 
-## 📁 Sample Output
+## Sample Output
 
 Here is a sample of what the output will look like when the scanner runs:
 
@@ -70,14 +70,14 @@ Here is a sample of what the output will look like when the scanner runs:
 
 ---
 
-## 🛡️ Ethical Use
+## Ethical Use
 
 `LinVulnScan` is intended for **authorized security assessments**, **Capture the Flag (CTF) competitions**, and **lab testing** only.  
 **Please do not use this tool on systems you do not own or have explicit permission to test.** Unauthorized use is illegal and unethical.
 
 ---
 
-## 👩‍💻 Author
+## Author
 
 **Khirawdhi Ray**  
 Website: [raykhira.com](https://raykhira.com/)  
