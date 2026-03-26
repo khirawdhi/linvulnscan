@@ -86,4 +86,6 @@ LinkedIn: [linkedin.com/in/khirawdhi](https://www.linkedin.com/in/khirawdhi/)
 
 ---
 
+## License
 
+MIT License
