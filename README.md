@@ -1,37 +1,35 @@
-LinVulnScan — Linux Privilege Escalation Scanner
+# LinVulnScan
 
-[![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Issues](https://img.shields.io/github/issues/khirawdhi/linvulnscan)](https://github.com/khirawdhi/linvulnscan/issues)
+A lightweight Python tool for identifying and validating common Linux privilege escalation misconfigurations during authorized security assessments.
 
-`LinVulnScan` is a Python-based lightweight Linux privilege escalation discovery tool inspired by [linPEAS](https://github.com/carlospolop/PEASS-ng/tree/master/linPEAS).  
-It identifies common misconfigurations, insecure binaries, SUID issues, and then **automatically tests** privilege escalation vectors using a **non-root user** created during runtime.
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
+![License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 ---
 
 ## Features
 
-- Checks for:
-  - SUID/SGID binaries
-  - World-writable files and paths
-  - sudo misconfigurations
-  - Cron jobs and scripts
-  - Kernel exploits (basic check)
-- Automatically creates a temp user to **test vulnerabilities**
-- Attempts to exploit verified escalation vectors (ethically)
-- Generates a scan report
+* Detects common privilege escalation risks:
+
+  * SUID/SGID binaries
+  * `sudo` misconfigurations
+  * World-writable files and directories
+  * Cron jobs
+  * Basic kernel version checks
+* Validates potential privilege escalation paths using a temporary non-root user
+* Generates a scan report
 
 ---
 
 ## Installation
 
-Install directly from GitHub:
-
+```bash
 pip install git+https://github.com/khirawdhi/linvulnscan.git
 ```
 
-Or clone the repository manually and install locally:
+Or install locally:
 
+```bash
 git clone https://github.com/khirawdhi/linvulnscan.git
 cd linvulnscan
 sudo pip install .
@@ -40,8 +38,6 @@ sudo pip install .
 ---
 
 ## Usage
-
-Once installed, run the scanner using the following commands:
 
 ```bash
 sudo run_scan
@@ -53,39 +49,26 @@ or
 sudo python3 -m linvulnscan
 ```
 
-> **Note:** Root access is required to run escalation checks.
+> Root privileges are required for system inspection and validation.
 
 ---
 
-## Sample Output
+## Example Output
 
-Here is a sample of what the output will look like when the scanner runs:
-
-```bash
+```text
 [+] SUID Binary Found: /usr/bin/sudo
-[+] Exploitable with sudo misconfig
-[+] Attempting privilege escalation as user: tempuser
-[+] Escalation successful. User tempuser gained root access.
+[+] Potential privilege escalation path detected
+[+] Validation completed successfully
 ```
 
 ---
 
-## Ethical Use
+## Disclaimer
 
-`LinVulnScan` is intended for **authorized security assessments**, **Capture the Flag (CTF) competitions**, and **lab testing** only.  
-**Please do not use this tool on systems you do not own or have explicit permission to test.** Unauthorized use is illegal and unethical.
-
----
-
-## Author
-
-**Khirawdhi Ray**  
-Website: [raykhira.com](https://raykhira.com/)  
-GitHub: [@khirawdhi](https://github.com/khirawdhi)  
-LinkedIn: [linkedin.com/in/khirawdhi](https://www.linkedin.com/in/khirawdhi/)
+LinVulnScan is intended for **authorized security assessments, security research, CTFs, and lab environments only**. Use only on systems you own or have explicit permission to test.
 
 ---
 
 ## License
 
-MIT License
+MIT
